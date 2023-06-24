@@ -1,0 +1,119 @@
+@font-face{
+    font-family: Aldrich;
+    src:url("../Fonts/Aldrich-Regular.ttf");
+}
+
+@font-face{
+    font-family: Cherry;
+    src:url("../CherryBombOne-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: Chakra;
+    src:url("../ChakraPetch-Regular.ttf") format("truetype");
+}
+
+
+
+html{
+    background-image:url('../Pictures/batman.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Aldrich;
+}
+
+body{
+   
+    color: #000000;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Aldrich;
+    font-weight: lighter;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #ebb9ff;
+    
+}
+
+#text{
+    
+    text-align: center;
+
+    padding: 5px;
+    font-family: Aldrich;
+    border-bottom: double;
+    font-size: 25px;
+    border-color: #000000;
+    border-radius: 50px;
+    font-weight: bold;
+
+    margin: auto;
+
+    text-align: center;
+    text-shadow: 2px 2px 2px #ebb9ff;
+}
+
+#image{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Aldrich;
+}
+
+#intro{
+    border-style: double;
+    padding: 10px;
+    margin: auto;
+    margin-top: 3%;
+    border-color: #000000;
+    border-width:3px;
+    border-radius: 25px;
+    background-image: radial-gradient(#b253ff67,#3b0e656f);
+    text-align: center;
+    width: 80%;
+    color: #000000;
+    font-size: 25px;
+    backdrop-filter: blur(4px);
+}
+
+#gotham{
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    background-color: #00000000;
+    background-image: radial-gradient(#b253ff67,#3b0e656f);
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    border-color: #000000;
+    right: 50%;
+    width: 25rem;
+    transform: translateX(50%);
+    margin-top: 1rem;
+    font-family: inherit;
+    backdrop-filter: blur(4px);
+}
+
+#bgsound{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    
+    right:50%;
+    position: absolute;
+    transform: translateX(50%);
+}
+
+::selection{
+    color: #a200ff;
+    background-color: #000000;
+}
+
