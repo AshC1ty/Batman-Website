@@ -104,9 +104,8 @@ h1{
 
 #bgsound{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 50px;
     margin-left: 15%;
-    
     right:50%;
     position: absolute;
     transform: translateX(50%);
